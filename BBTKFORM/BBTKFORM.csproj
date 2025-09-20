@@ -58,6 +58,12 @@
     <Compile Include="frmBai2.Designer.cs">
       <DependentUpon>frmBai2.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmBai3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBai3.Designer.cs">
+      <DependentUpon>frmBai3.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmchinh.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +77,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmBai2.resx">
       <DependentUpon>frmBai2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBai3.resx">
+      <DependentUpon>frmBai3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmchinh.resx">
       <DependentUpon>frmchinh.cs</DependentUpon>

@@ -44,7 +44,7 @@
             this.tsmiBai2,
             this.tsmiBai3});
             this.họTênCủaSinhViênToolStripMenuItem.Name = "họTênCủaSinhViênToolStripMenuItem";
-            this.họTênCủaSinhViênToolStripMenuItem.Size = new System.Drawing.Size(156, 26);
+            this.họTênCủaSinhViênToolStripMenuItem.Size = new System.Drawing.Size(156, 24);
             this.họTênCủaSinhViênToolStripMenuItem.Text = "Họ tên của sinh viên";
             // 
             // tsmiBai1
@@ -65,9 +65,11 @@
             // 
             // tsmiBai3
             // 
+            this.tsmiBai3.Image = ((System.Drawing.Image)(resources.GetObject("tsmiBai3.Image")));
             this.tsmiBai3.Name = "tsmiBai3";
             this.tsmiBai3.Size = new System.Drawing.Size(224, 26);
             this.tsmiBai3.Text = "Bài 3";
+            this.tsmiBai3.Click += new System.EventHandler(this.tsmiBai3_Click);
             // 
             // menuStrip1
             // 
@@ -76,7 +78,7 @@
             this.họTênCủaSinhViênToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(800, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
