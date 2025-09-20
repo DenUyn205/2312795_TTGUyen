@@ -34,6 +34,7 @@
             this.tsmiBai2 = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiBai3 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.tsmiBai4 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -42,9 +43,10 @@
             this.họTênCủaSinhViênToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsmiBai1,
             this.tsmiBai2,
-            this.tsmiBai3});
+            this.tsmiBai3,
+            this.tsmiBai4});
             this.họTênCủaSinhViênToolStripMenuItem.Name = "họTênCủaSinhViênToolStripMenuItem";
-            this.họTênCủaSinhViênToolStripMenuItem.Size = new System.Drawing.Size(156, 24);
+            this.họTênCủaSinhViênToolStripMenuItem.Size = new System.Drawing.Size(156, 26);
             this.họTênCủaSinhViênToolStripMenuItem.Text = "Họ tên của sinh viên";
             // 
             // tsmiBai1
@@ -78,9 +80,16 @@
             this.họTênCủaSinhViênToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(800, 30);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
+            // 
+            // tsmiBai4
+            // 
+            this.tsmiBai4.Name = "tsmiBai4";
+            this.tsmiBai4.Size = new System.Drawing.Size(224, 26);
+            this.tsmiBai4.Text = "Bài 4";
+            this.tsmiBai4.Click += new System.EventHandler(this.tsmiBai4_Click);
             // 
             // frmchinh
             // 
@@ -105,6 +114,7 @@
         private System.Windows.Forms.ToolStripMenuItem tsmiBai2;
         private System.Windows.Forms.ToolStripMenuItem tsmiBai3;
         private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem tsmiBai4;
     }
 }
 

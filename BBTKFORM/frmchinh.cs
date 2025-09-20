@@ -39,5 +39,11 @@ namespace BBTKFORM
             var form = new frmBai3();
             form.ShowDialog();
         }
+
+        private void tsmiBai4_Click(object sender, EventArgs e)
+        {
+            var form = new frmBai4();
+            form.ShowDialog();
+        }
     }
 }
